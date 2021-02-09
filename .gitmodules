@@ -4,3 +4,6 @@
 [submodule "Thesis/ustcthesis"]
 	path = Thesis/ustcthesis
 	url = https://github.com/ustctug/ustcthesis.git
+[submodule "Thesis/hithesis"]
+	path = Thesis/hithesis
+	url = https://github.com/dustincys/hithesis.git

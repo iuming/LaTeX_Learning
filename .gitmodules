@@ -7,3 +7,6 @@
 [submodule "Thesis/hithesis"]
 	path = Thesis/hithesis
 	url = https://github.com/dustincys/hithesis.git
+[submodule "Presentations/IISTSlides"]
+	path = Presentations/IISTSlides
+	url = https://github.com/4sarathbabu/IISTSlides.git

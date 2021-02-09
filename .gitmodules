@@ -1,0 +1,6 @@
+[submodule "Thesis/thuthesis"]
+	path = Thesis/thuthesis
+	url = https://github.com/tuna/thuthesis.git
+[submodule "Thesis/ustcthesis"]
+	path = Thesis/ustcthesis
+	url = https://github.com/ustctug/ustcthesis.git

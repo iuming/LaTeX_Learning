@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subfigure}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \subfigure[123]{\includegraphics[width=0.45\textwidth]{Fig/exph}\label{fig:exph}}
+    \subfigure[456]{\includegraphics[width=0.45\textwidth]{Fig/exgr}\label{fig:exgr}}
+
+    \subfigure[123]{\includegraphics[width=0.45\textwidth]{Fig/exph}\label{fig:exph}}
+    \subfigure[456]{\includegraphics[width=0.45\textwidth]{Fig/exgr}\label{fig:exgr}}
+
+    \subfigure[123]{\includegraphics[width=0.45\textwidth]{Fig/exph}\label{fig:exph}}
+    \subfigure[456]{\includegraphics[width=0.45\textwidth]{Fig/exgr}\label{fig:exgr}}
+    \caption{Second caption}
+    \label{fig:exph,exgr}
+\end{figure}
+
+\end{document}
+

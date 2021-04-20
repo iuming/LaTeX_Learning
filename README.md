@@ -14,7 +14,7 @@ Record LaTex study notes
 [The preamble of a document](https://github.com/iuming/LaTeX_Learning/tree/master/code/The%20preamble%20of%20a%20document)                                    
 [Usage of include](https://github.com/iuming/LaTeX_Learning/tree/master/code/Usage%20of%20%20include)                                    
 [first piece of LATEX](https://github.com/iuming/LaTeX_Learning/tree/master/code/first%20piece%20of%20LATEX)                                     
-[Headers and footers]{https://github.com/iuming/LaTeX_Learning/tree/master/code/Headers%20and%20footers}                   
+[Headers and footers](https://github.com/iuming/LaTeX_Learning/tree/master/code/Headers%20and%20footers)                   
 
 ## Template
 

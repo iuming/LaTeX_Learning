@@ -67,7 +67,7 @@ There's a picture of a galaxy above
 ```
 
 ## 第4题
-```
+```tex
 \documentclass{article}
 \usepackage{ctex}
 \usepackage{graphicx}

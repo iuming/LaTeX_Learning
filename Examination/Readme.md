@@ -1,6 +1,3 @@
-# LaTeX Examination
-
-```tex
 \documentclass[aps,prd,showpacs,superscriptaddress,preprintnumbers]{revtex4}
 
 \usepackage{graphicx,float,wrapfig,subfigure}
@@ -96,10 +93,10 @@ The differential Maxwell Equations  takes the following form:
 \end{equation}
 
 
-Please type Eq.(\ref{}) shown in test0103original.pdf file.
+Please type Eq.(\ref{Eq.3}) shown in test0103original.pdf file.
 \begin{equation}
 	\Phi^{\pm} =
-	\begin{bmatrix}
+	\begin{pmatrix}
 		[\bigtriangleup_{uu}^{rr}]^{\pm} & 0                                & 0 & 0                                & [\bigtriangleup_{ud}^{rg}]^{\pm} & 0 & 0                                & 0                                & [\bigtriangleup_{us}^{rb}]^{\pm}                                    \\
 		0                                & 0                                & 0 & [\bigtriangleup_{du}^{rg}]^{\pm} & 0                                & 0 & 0                                & 0                                & 0                                & 0                                \\
 		0                                & 0                                & 0 & 0                                & 0                                & 0 & 0                                & [\bigtriangleup_{us}^{rb}]^{\pm} & 0                                & 0                                \\
@@ -109,7 +106,8 @@ Please type Eq.(\ref{}) shown in test0103original.pdf file.
 		0                                & [\bigtriangleup_{su}^{rb}]^{\pm} & 0 & 0                                & 0                                & 0 & 0                                & 0                                & 0                                & 0                                \\
 		0                                & 0                                & 0 & 0                                & 0                                & 0 & [\bigtriangleup_{sd}^{gb}]^{\pm} & 0                                & 0                                & 0                                \\
 		[\bigtriangleup_{us}^{rb}]^{\pm} & 0                                & 0 & 0                                & [\bigtriangleup_{ds}^{gb}]^{\pm} & 0 & 0                                & 0                                & 0                                & [\bigtriangleup_{ss}^{bb}]^{\pm} \\
-	\end{bmatrix}
+	\end{pmatrix}
+	\label{Eq.3}
 \end{equation}
 
 \section{Figures}
@@ -153,16 +151,20 @@ Please list 10 references from [2]-[10] shown in test0103original.pdf file.
 \begin{thebibliography}{99}
 
 	\bibitem{SW}Michael Alley, The craft of sscientific writing, Springer;1996
-
-
-
-
+	\bibitem{KP}K. Kiuchi, P. Cerd´a-Dur´an, K. Kyutoku, Y. Sekiguchi and M. Shibata, Phys. Rev. D \textbf{92}, no. 12, 124034 (2015)doi:10.1103/PhysRevD.92.124034 [arXiv:1509.09205 [astro-ph.HE]].
+	\bibitem{LL}L. Baiotti and L. Rezzolla, Rept. Prog. Phys. \textbf{80}, no. 9, 096901 (2017) doi:10.1088/1361-6633/aa67bb [arXiv:1607.03540[gr-qc]].
+	\bibitem{JO}J. O. Andersen, W. R. Naylor and A. Tranberg, Rev. Mod. Phys. \textbf{88}, 025001 (2016) doi:10.1103/RevModPhys.88.025001[arXiv:1411.7176 [hep-ph]].
+	\bibitem{VA}V. A. Miransky and I. A. Shovkovy, Phys. Rept. \textbf{576}, 1 (2015) doi:10.1016/j.physrep.2015.02.003 [arXiv:1503.00732 [hep-ph]].
+	\bibitem{DE}D. E. Kharzeev, J. Liao, S. A. Voloshin and G. Wang, Prog. Part. Nucl. Phys. \textbf{88}, 1 (2016) doi:10.1016/j.ppnp.2016.01.001[arXiv:1511.04050 [hep-ph]].
+	\bibitem{DK}D. Kharzeev and A. Zhitnitsky, Nucl. Phys. A \textbf{797}, 67 (2007). [arXiv:0706.1026 [hep-ph]].
+	\bibitem{LD}D. E. Kharzeev, L. D. McLerran and H. J. Warringa, Nucl. Phys. A \textbf{803}, 227 (2008). [arXiv:0711.0950 [hep-ph]].
+	\bibitem{KF}K. Fukushima, D. E. Kharzeev and H. J. Warringa, Phys. Rev. D \textbf{78}
+	, 074033 (2008). [arXiv:0808.3382 [hep-ph]].
+	\bibitem{DT}D. E. Kharzeev and D. T. Son, Phys. Rev. Lett. \textbf{106}, 062301 (2011) [arXiv:1010.0038 [hep-ph]].
+	\bibitem{VP}V. P. Gusynin, V. A. Miransky and I. A. Shovkovy, Nucl. Phys. B \textbf{462}, 249 (1996) doi:10.1016/0550-3213(96)00021-1[hep-ph/9509320].
 
 \end{thebibliography}
 
 \end{document}
 
 
-
-
-```

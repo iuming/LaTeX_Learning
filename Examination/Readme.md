@@ -93,7 +93,7 @@ The differential Maxwell Equations  takes the following form:
 	\text{Gauss's Law:} \qquad \qquad \bigtriangledown \cdot \mathbf{E} = \frac{\rho}{\epsilon_{0}} ,
 \end{equation*}
 \begin{equation*}
-	\text{Gauss's Law for magnetism:} \bigtriangleup \cdot \mathbf{B} = 0
+	\text{Gauss's Law for magnetism:} \bigtriangledown \cdot \mathbf{B} = 0
 \end{equation*}
 \begin{equation*}
 	\text{Faraday's law of induction :} \bigtriangledown \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}
@@ -142,17 +142,17 @@ In this section, please make Table \ref{Ta.1} as shown in test0103original.pdf f
 \begin{table}[htbp]
 	\begin{tabular}{|cc|ccc|ccc|}
 		\hline
-		\multicolumn{2}{|c|}{\multirow{2}{*}{}}                                & \multicolumn{3}{c|}{Model A}    & \multicolumn{3}{c|}{Model B}                                                                                                                                           \\ \cline{3-8}
-		\multicolumn{2}{|c|}{}                                                 & \multicolumn{1}{c|}{$N_{TC}=3$} & \multicolumn{1}{c|}{$N_{TC}=4$}  & $N_{TC}=5$                 & \multicolumn{1}{c|}{$N_{TC}=3$} & \multicolumn{1}{c|}{$N_{TC}=4$} & $N_{TC}=5$                         \\ \hline
-		\multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox{90}{\textbf{Input}}}}  & {$ z_{m}^{-1}(TeV)$}            & \multicolumn{1}{c|}{1.072}       & \multicolumn{1}{c|}{1.079} & 1.083                           & \multicolumn{1}{c|}{0.299}      & \multicolumn{1}{c|}{0.299} & 0.299 \\ \cline{2-8}
-		\multicolumn{1}{|c|}{}                                                 & c                               & \multicolumn{1}{c|}{1.395}       & \multicolumn{1}{c|}{1.141} & 1.423                           & \multicolumn{1}{c|}{0.099}      & \multicolumn{1}{c|}{0.099} & 0.099 \\ \cline{2-8}
-		\multicolumn{1}{|c|}{}                                                 & M                               & \multicolumn{1}{c|}{0.553}       & \multicolumn{1}{c|}{0.541} & 0.534                           & \multicolumn{1}{c|}{0.380}      & \multicolumn{1}{c|}{0.329} & 0.295 \\ \hline
-		\multicolumn{1}{|c|}{\multirow{6}{*}{\rotatebox{90}{\textbf{Output}}}} & S                               & \multicolumn{3}{c|}{0.15(fixed)} & \multicolumn{1}{c|}{0.721} & \multicolumn{1}{c|}{0.888}      & 1.034                                                                \\ \cline{2-8}
-		\multicolumn{1}{|c|}{}                                                 & T(GeV)                          & \multicolumn{1}{c|}{356}         & \multicolumn{1}{c|}{358}   & 360                             & \multicolumn{3}{c|}{100(fixed)}                                      \\ \cline{2-8}
-		\multicolumn{1}{|c|}{}                                                 & $ m_{higgs}^{(1)}$              & \multicolumn{1}{c|}{4.368}       & \multicolumn{1}{c|}{4.397} & 4.413                           & \multicolumn{1}{c|}{1.217}      & \multicolumn{1}{c|}{1.217} & 1.217 \\
-		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(0)}$}      & \multicolumn{1}{c|}{2.054}       & \multicolumn{1}{c|}{2.068} & 2.075                           & \multicolumn{1}{c|}{0.586}      & \multicolumn{1}{c|}{0.586} & 0.586 \\
-		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(1)}$}      & \multicolumn{1}{c|}{5.722}       & \multicolumn{1}{c|}{5.759} & 5.780                           & \multicolumn{1}{c|}{1.603}      & \multicolumn{1}{c|}{1.603} & 1.603 \\
-		\multicolumn{1}{|c|}{}                                                 & {$ m^{(2)}$}                    & \multicolumn{1}{c|}{5.531}       & \multicolumn{1}{c|}{5.521} & 5.515                           & \multicolumn{1}{c|}{3.315}      & \multicolumn{1}{c|}{3.315} & 3.315 \\ \cline{1-8}
+		\multicolumn{2}{|c|}{\multirow{2}{*}{}}                                & \multicolumn{3}{c|}{Model A}                          & \multicolumn{3}{c|}{Model B}                                                                                                                                           \\ \cline{3-8}
+		\multicolumn{2}{|c|}{}                                                 & \multicolumn{1}{c|}{$N_{TC}=3$}                       & \multicolumn{1}{c|}{$N_{TC}=4$}  & $N_{TC}=5$                 & \multicolumn{1}{c|}{$N_{TC}=3$} & \multicolumn{1}{c|}{$N_{TC}=4$} & $N_{TC}=5$                         \\ \hline
+		\multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox{90}{\textbf{Input}}}}  & {$ z_{m}^{-1}(TeV)$}                                  & \multicolumn{1}{c|}{1.072}       & \multicolumn{1}{c|}{1.079} & 1.083                           & \multicolumn{1}{c|}{0.299}      & \multicolumn{1}{c|}{0.299} & 0.299 \\ \cline{2-8}
+		\multicolumn{1}{|c|}{}                                                 & $ c $                                                 & \multicolumn{1}{c|}{1.395}       & \multicolumn{1}{c|}{1.141} & 1.423                           & \multicolumn{1}{c|}{0.099}      & \multicolumn{1}{c|}{0.099} & 0.099 \\ \cline{2-8}
+		\multicolumn{1}{|c|}{}                                                 & $ M $                                                 & \multicolumn{1}{c|}{0.553}       & \multicolumn{1}{c|}{0.541} & 0.534                           & \multicolumn{1}{c|}{0.380}      & \multicolumn{1}{c|}{0.329} & 0.295 \\ \hline
+		\multicolumn{1}{|c|}{\multirow{6}{*}{\rotatebox{90}{\textbf{Output}}}} & $ S $                                                 & \multicolumn{3}{c|}{0.15(fixed)} & \multicolumn{1}{c|}{0.721} & \multicolumn{1}{c|}{0.888}      & 1.034                                                                \\ \cline{2-8}
+		\multicolumn{1}{|c|}{}                                                 & $ T_{*}(GeV) $                                        & \multicolumn{1}{c|}{356}         & \multicolumn{1}{c|}{358}   & 360                             & \multicolumn{3}{c|}{100(fixed)}                                      \\ \cline{2-8}
+		\multicolumn{1}{|c|}{}                                                 & $ m_{higgs}^{(1)}$                                    & \multicolumn{1}{c|}{4.368}       & \multicolumn{1}{c|}{4.397} & 4.413                           & \multicolumn{1}{c|}{1.217}      & \multicolumn{1}{c|}{1.217} & 1.217 \\
+		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(0)}$}                            & \multicolumn{1}{c|}{2.054}       & \multicolumn{1}{c|}{2.068} & 2.075                           & \multicolumn{1}{c|}{0.586}      & \multicolumn{1}{c|}{0.586} & 0.586 \\
+		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(1)}$}                            & \multicolumn{1}{c|}{5.722}       & \multicolumn{1}{c|}{5.759} & 5.780                           & \multicolumn{1}{c|}{1.603}      & \multicolumn{1}{c|}{1.603} & 1.603 \\
+		\multicolumn{1}{|c|}{}                                                 & {$ m_{\uppercase\expandafter{\romannumeral2}}^{(1)}$} & \multicolumn{1}{c|}{5.531}       & \multicolumn{1}{c|}{5.521} & 5.515                           & \multicolumn{1}{c|}{3.315}      & \multicolumn{1}{c|}{3.315} & 3.315 \\ \cline{1-8}
 	\end{tabular}
 	\caption{Input parameters and output results from Model A and Model B, respectively. Note that the unit of particle mass is TeV.}
 	\label{Ta.1}

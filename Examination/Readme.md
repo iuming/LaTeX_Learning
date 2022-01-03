@@ -139,7 +139,7 @@ Use subfigure to insert two subfigures ${\rm Divergence\_theorem\_in\_EM.png}$ a
 
 In this section, please make Table \ref{Ta.1} as shown in test0103original.pdf file.
 
-\begin{table}[]
+\begin{table}[htbp]
 	\begin{tabular}{|cc|ccc|ccc|}
 		\hline
 		\multicolumn{2}{|c|}{\multirow{2}{*}{}}                                & \multicolumn{3}{c|}{Model A}    & \multicolumn{3}{c|}{Model B}                                                                                                                                           \\ \cline{3-8}

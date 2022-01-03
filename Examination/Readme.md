@@ -154,6 +154,7 @@ In this section, please make Table \ref{Ta.1} as shown in test0103original.pdf f
 		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(1)}$}      & \multicolumn{1}{c|}{5.722}       & \multicolumn{1}{c|}{5.759} & 5.780                           & \multicolumn{1}{c|}{1.603}      & \multicolumn{1}{c|}{1.603} & 1.603 \\
 		\multicolumn{1}{|c|}{}                                                 & {$ m^{(2)}$}                    & \multicolumn{1}{c|}{5.531}       & \multicolumn{1}{c|}{5.521} & 5.515                           & \multicolumn{1}{c|}{3.315}      & \multicolumn{1}{c|}{3.315} & 3.315 \\ \cline{1-8}
 	\end{tabular}
+	\caption{Input parameters and output results from Model A and Model B, respectively. Note that the unit of particle mass is TeV.}
 	\label{Ta.1}
 \end{table}
 

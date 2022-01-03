@@ -97,7 +97,20 @@ The differential Maxwell Equations  takes the following form:
 
 
 Please type Eq.(\ref{}) shown in test0103original.pdf file.
-
+\begin{equation}
+	\Phi^{\pm} =
+	\begin{bmatrix}
+		[\bigtriangleup_{uu}^{rr}]^{\pm} & 0                                & 0 & 0                                & [\bigtriangleup_{ud}^{rg}]^{\pm} & 0 & 0                                & 0                                & [\bigtriangleup_{us}^{rb}]^{\pm}                                    \\
+		0                                & 0                                & 0 & [\bigtriangleup_{du}^{rg}]^{\pm} & 0                                & 0 & 0                                & 0                                & 0                                & 0                                \\
+		0                                & 0                                & 0 & 0                                & 0                                & 0 & 0                                & [\bigtriangleup_{us}^{rb}]^{\pm} & 0                                & 0                                \\
+		0                                & [\bigtriangleup_{du}^{rg}]^{\pm} & 0 & 0                                & 0                                & 0 & 0                                & 0                                & 0                                & 0                                \\
+		[\bigtriangleup_{du}^{rg}]^{\pm} & 0                                & 0 & 0                                & [\bigtriangleup_{dd}^{gg}]^{\pm} & 0 & 0                                & 0                                & 0                                & [\bigtriangleup_{ds}^{gb}]^{\pm} \\
+		0                                & 0                                & 0 & 0                                & 0                                & 0 & 0                                & 0                                & [\bigtriangleup_{sd}^{gb}]^{\pm} & 0                                \\
+		0                                & [\bigtriangleup_{su}^{rb}]^{\pm} & 0 & 0                                & 0                                & 0 & 0                                & 0                                & 0                                & 0                                \\
+		0                                & 0                                & 0 & 0                                & 0                                & 0 & [\bigtriangleup_{sd}^{gb}]^{\pm} & 0                                & 0                                & 0                                \\
+		[\bigtriangleup_{us}^{rb}]^{\pm} & 0                                & 0 & 0                                & [\bigtriangleup_{ds}^{gb}]^{\pm} & 0 & 0                                & 0                                & 0                                & [\bigtriangleup_{ss}^{bb}]^{\pm} \\
+	\end{bmatrix}
+\end{equation}
 
 \section{Figures}
 
@@ -148,6 +161,7 @@ Please list 10 references from [2]-[10] shown in test0103original.pdf file.
 \end{thebibliography}
 
 \end{document}
+
 
 
 

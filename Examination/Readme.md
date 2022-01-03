@@ -152,7 +152,7 @@ In this section, please make Table \ref{Ta.1} as shown in test0103original.pdf f
 		\multicolumn{1}{|c|}{}                                                 & $ m_{higgs}^{(1)}$                                    & \multicolumn{1}{c|}{4.368}       & \multicolumn{1}{c|}{4.397} & 4.413                           & \multicolumn{1}{c|}{1.217}      & \multicolumn{1}{c|}{1.217} & 1.217 \\
 		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(0)}$}                            & \multicolumn{1}{c|}{2.054}       & \multicolumn{1}{c|}{2.068} & 2.075                           & \multicolumn{1}{c|}{0.586}      & \multicolumn{1}{c|}{0.586} & 0.586 \\
 		\multicolumn{1}{|c|}{}                                                 & {$ m_{techni-\rho}^{(1)}$}                            & \multicolumn{1}{c|}{5.722}       & \multicolumn{1}{c|}{5.759} & 5.780                           & \multicolumn{1}{c|}{1.603}      & \multicolumn{1}{c|}{1.603} & 1.603 \\
-		\multicolumn{1}{|c|}{}                                                 & {$ m_{\uppercase\expandafter{\romannumeral2}}^{(1)}$} & \multicolumn{1}{c|}{5.531}       & \multicolumn{1}{c|}{5.521} & 5.515                           & \multicolumn{1}{c|}{3.315}      & \multicolumn{1}{c|}{3.315} & 3.315 \\ \cline{1-8}
+		\multicolumn{1}{|c|}{}                                                 & {$ m_{\uppercase\expandafter{\romannumeral2}}^{(1)}$} & \multicolumn{1}{c|}{5.531}       & \multicolumn{1}{c|}{5.521} & 5.515                           & \multicolumn{1}{c|}{3.315}      & \multicolumn{1}{c|}{2.686} & 3.385 \\ \cline{1-8}
 	\end{tabular}
 	\caption{Input parameters and output results from Model A and Model B, respectively. Note that the unit of particle mass is TeV.}
 	\label{Ta.1}

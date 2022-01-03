@@ -58,6 +58,16 @@
 
 Please give a brief introduction on the general structure of scientific papers here,i.e. the IMRAD structure \cite{}.  What kind of content should be addressed in each part?
 
+IMRAD is short of Introduction,Methods,Results and Disscussion.
+\begin{itemize}
+	\item Introduction:Why was the study undertaken? What was the research question, the tested hypothesis or
+	      the purpose of the research?
+	\item Methods:When, where, and how was the study done? What materials were used or who was included in the
+	      study groups (patients, etc.)?
+	\item Results:What answer was found to the research question; what did the study find? Was the tested hypothesis true?
+	\item Discussion:What might the answer imply and why does it matter? How does it fit in with what other
+	      researchers have found? What are the perspectives for future research?
+\end{itemize}
 
 
 \section{Equations}
@@ -181,6 +191,7 @@ Please list 10 references from [2]-[10] shown in test0103original.pdf file.
 \end{thebibliography}
 
 \end{document}
+
 
 
 ```
